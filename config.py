@@ -10,7 +10,7 @@ load_dotenv()
 API_ID = int(getenv("API_ID", "28294093"))
 API_HASH = getenv("API_HASH", "f24d982c45ab2f69a6cb8c0fee9630bd")
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN", "7569306898:AAHYH63zVYJtl_qIw31Lvs87wXu69c3127I")
+BOT_TOKEN = getenv("BOT_TOKEN", "6815304449:AAEK4T_2AhQ5wnAyN_5fdTgO_pViyQcdB4A")
 # Add Owner Username without @ 
 OWNER_USERNAME = getenv("OWNER_USERNAME","ll_KSD_ll")
 # Get Your bot username
@@ -38,12 +38,12 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 YTPROXY_URL = getenv("YTPROXY_URL", 'https://tgapi.xbitcode.com') ## E.G https://yt.okflix.
-YT_API_KEY = "xbit_0000968756403419024924"
+YT_API_KEY = "xbit_0000673671197009277815"
 COOKIES_URL=getenv("COOKIES_URL" , "https://gist.githubusercontent.com/sparrow9616/f29fc6588086a3c72d92dd9c03773350/raw/4229f3f4aab4a6693fc0794d136d30f54d67ae85/gistfile1.txt")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/ifgovtjoftibcdjpvd8nfiokbfobffob0vrb8bd/pallavi1",
+    "https://github.com/ifgovtjoftibcdjpvd8nfiokbfobffob0vrb8bd/Riya1",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "Master")
 GIT_TOKEN = getenv(
@@ -73,8 +73,8 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 5242880000))
 
 
 # Get @tmm_string_bot session from @tmm_STRING_BOT
-STRING1 = getenv("STRING_SESSION", "BQGvu80AFK9sNjc9-kC9oAfpGJ9gif149I8z9RfqwreO8vUb0IsIQKJnxuNzEg6bwwNj5Nq5XpDMZYBnUxS1_IuggrTno-aZ_Hl2hzxCMu9BWe8mtGn3RLwvhWYap_FUGwTjsYkEvPd7f0YhnjXyBmDj5_PT-XtJQIym9k_kj_abjrtFOQRP1OxVjlAL9xJOLF7Z-uXFQxh7tg_3ItKU17g7scnP7fIz0SpDjGEkbNRR3-oHQRyEwoXArjqS-el1Yf5CMo_MAGKkik7BL2gRY2ODXrOP3Sqk1DhtaJF_7iKgmJIfoKjeaw-I7PE-ZLg9po5PhMs60lM5N1CjfCh3C_Q9uGftSAAAAAHKXA1NAA")
-STRING2 = getenv("STRING_SESSION2", None)
+STRING1 = getenv("STRING_SESSION", "BQGvu80AhKLur-bF0MO0BZiQzvF7_GFsjf-wVIWhasLLllfTJi00HEgTLvcDXbMi-8D92zyBnNQ0WTz3WGKZjwvTk7A_ZvDFqndGf28UkXkKCUWQIBGEA5m3hJWre3Xt5yWMKGlvKt5vjIj0amXiJoNAVn2OqqQRSP7Uv6jqmWj74lAa9X5f3r0Pol45BWYU4ro15lJ7AuRBRa3vEKXHWJfphNjHSuxlG00wAWLb7HUoho8YvOb-nJhhmoI8uv5UXhIQMSNExcOPymInEY0WTCNJo_zvhzypnG0vvONLOaagZW0rOoemG2ltodRiKf0-jBBFIKmOso1IwIF-VLOtAQynIRh7WgAAAAHYZeQSAA")
+STRING2 = getenv("STRING_SESSION2", "BQGvu80Ab4U2o612wZRXjnGYDdq0hXI296e13KCNw03eL-XCrQI1Va7J6UO8WaioNVJVKT6fHfH2Og0PQZgklfdhFEq_1onWXohkz4tdF6oOTYkOEEc94fBDHXixLmBeWECHeICRBTTXISgXOqO-bPs2DjpCUN4UYcceFtp1c29BikpvU2prPujAssGXCOABVo3ViFGR4Uo4sMz7YSF2317p8ZEC1mZPzTzZr5971OT5choxGlcD7-iE7j4OKi6I4nA6aogWsf63o5d41RHKUd6lwTxxx8GqotdryqoDnN_0tnC3ZmPhEQMosf9P2vtyEB_bp64NpPib95BumgBnlfuhaaF-1QAAAAHmYnpQAA")
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
 STRING5 = getenv("STRING_SESSION5", None)

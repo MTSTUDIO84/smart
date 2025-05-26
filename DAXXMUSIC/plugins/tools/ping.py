@@ -4,7 +4,7 @@ from pyrogram import filters
 from pyrogram.types import Message
 
 from DAXXMUSIC import app
-from DAXXMUSIC.core.call import Anony
+from DAXXMUSIC.core.call import DAXX
 from DAXXMUSIC.utils import bot_sys_stats
 from DAXXMUSIC.utils.decorators.language import language
 from DAXXMUSIC.utils.inline import supp_markup
@@ -19,7 +19,7 @@ async def ping_com(client, message: Message, _):
         photo=PING_IMG_URL,
         caption=_["ping_1"].format(app.mention),
     )
-    pytgping = await Anony.ping()
+    pytgping = await DAXX.ping()
     UP, CPU, RAM, DISK = await bot_sys_stats()
     resp = (datetime.now() - start).microseconds / 1000
     await response.edit_text(
